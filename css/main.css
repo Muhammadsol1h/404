@@ -583,14 +583,14 @@
     }
 
     .footer__right__link {
-        font-family: Gilroy;
+        font-family: "Gilroy" ,sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 19.51px;
     }
 
     .footer__right__link1 {
-        font-family: Gilroy;
+        font-family: "Gilroy"  , sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 19.51px;
