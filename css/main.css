@@ -604,9 +604,15 @@
 
 @media(max-width:360px){
     .footer__container{
-        padding: 0px 0px 0px 0px;
+        margin-left: 0px;
     }
     .footer__left{
         display: block;
+    }
+    .footer__res{
+        margin-bottom: 20px;
+    }
+    .footer__left__res__link br{
+        display: none;
     }
 }
