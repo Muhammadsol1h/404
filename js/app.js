@@ -6,10 +6,12 @@ headerMenu.addEventListener('click' , function(){
     headerClose.style.display = 'block'
     headerMenu.style.display = 'none'
     headerList.style.display = 'block'
+    document.body.style.overflow = 'hidden';
 })
 
 headerClose.addEventListener('click' ,  function(){
     headerClose.style.display = 'none'
     headerMenu.style.display = 'block'
     headerList.style.display = 'none'
+    document.body.style.overflow = 'auto';
 })
